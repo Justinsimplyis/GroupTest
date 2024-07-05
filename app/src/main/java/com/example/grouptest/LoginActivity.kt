@@ -9,3 +9,6 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
     }
 }
+//Sources
+//Youtube: https://www.youtube.com/watch?v=M3gYcPF51QY&list=WL&index=30
+//Website: https://androidknowledge.com/login-signup-android-studio-firebase-realtime/

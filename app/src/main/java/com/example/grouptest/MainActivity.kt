@@ -7,17 +7,14 @@ import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var clickMe: Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        clickMe = findViewById(R.id.bntClickMe)
 
-        clickMe.setOnClickListener{
-            val intent = Intent(this, LoginActivity::class.java)
-        startActivity(intent)
-        }
     }
 }
+//Sources
+//Youtube: https://www.google.com/search?q=splash+screens+android%5Ckotlin&oq=splash+screens+android%5Ckotlin&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQLhhA0gEIODY0OGowajGoAgCwAgA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:c2a1e49b,vid:Eu7lkrDjBq8,st:0
