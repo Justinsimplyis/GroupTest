@@ -91,8 +91,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
+                android:clickable="false"
                 android:padding="8dp"
                 android:text="Already an user? Login"
+
                 android:textSize="18sp" />
 
             <TextView
@@ -102,11 +104,12 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:clickable="true"
-                android:textAlignment="center"
-                android:textStyle="italic"
                 android:padding="8dp"
                 android:text=" SKIP ->>"
-                android:textSize="18sp" />
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="18sp"
+                android:textStyle="italic" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

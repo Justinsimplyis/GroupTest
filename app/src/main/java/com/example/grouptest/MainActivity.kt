@@ -1,20 +1,25 @@
 package com.example.grouptest
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
+import android.os.Handler
+import android.os.Looper
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
-
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
+
+        //this screen would act like a delay screen for the app and redirect to the Sign Up
+        Handler(Looper.getMainLooper()).postDelayed({
+            val intent = Intent(this@MainActivity, SignUpActivity::class.java)
+            startActivity(intent)
+            finish()
+        }, 5000)
+        //a proper "Mugged" wallpaper/Screen / Logo needs to be created as well as the CSS fr the app and web
 
 
     }
 }
-//Sources
-//Youtube: https://www.google.com/search?q=splash+screens+android%5Ckotlin&oq=splash+screens+android%5Ckotlin&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQLhhA0gEIODY0OGowajGoAgCwAgA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:c2a1e49b,vid:Eu7lkrDjBq8,st:0

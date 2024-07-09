@@ -7,27 +7,16 @@
     tools:context=".MainActivity">
 
 
-    <Button
-        android:id="@+id/bntClickMe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="132dp"
-        android:text=" Click Me "
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
         android:id="@+id/tvMugged"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="332dp"
         android:text=" Mugged "
         android:textAlignment="center"
-        android:textSize="45sp"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,7 +24,7 @@
         android:id="@+id/tvGroupName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="232dp"
+        android:layout_marginTop="508dp"
         android:text=" CodeCraft_Collective "
         android:textAlignment="center"
         android:textSize="24sp"
